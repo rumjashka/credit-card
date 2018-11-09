@@ -1,3 +1,141 @@
 // /* You can add global styles to this file, and also import other style files */
 // @import '~bootstrap/scss/bootstrap-reboot';
 // @import '~bootstrap/scss/bootstrap-grid';
+.creditcard {
+    //   background-color: #afb8bd;
+    width: 400px;
+    height: 220px;
+    border-radius: 15px;
+    margin: 30px auto;
+    position: absolute;
+    left: 40%;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  .cc-back {
+    background-color: #afb8bd;
+    width: 400px;
+    height: 220px;
+    border-radius: 15px;
+    margin: 30px auto;
+    position: absolute;
+    left: 40%;
+  }
+  
+  .chip-left {
+    width: 50px;
+    padding: 10px;
+  }
+  
+  .chip-right {
+    width: 60px;
+    padding: 10px;
+    display: none;
+  }
+  
+  .chip-master {
+    height: 30px;
+    padding: 10px;
+    display: none;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 65px;
+  }
+  
+  textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    background-color: rgba(1, 1, 1, 0);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 24px;
+    resize: none;
+  }
+  .client-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20vw auto;
+    justify-content: center;
+    max-width: fit-content;
+  }
+  
+  .cc-number {
+    margin: 0 auto;
+  }
+  .inputs {
+    margin: 0 auto;
+    position: absolute;
+    left: 5vw;
+  }
+  
+  .bottom-container {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .date-area {
+    width: 100px;
+  }
+  
+  label {
+    font-size: 18px;
+    padding: 15px;
+  }
+  
+  input {
+    padding: 5px;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .cvc-black {
+    background-color: black;
+    width: 400px;
+    height: 40px;
+    margin: 20px auto;
+  }
+  
+  .cvc-white {
+    background: repeating-linear-gradient(
+      0.1deg,
+      #fff 20%,
+      #fff 40%,
+      #fea 40%,
+      #fea 44%,
+      #fff 44%
+    );
+    width: 300px;
+    height: 40px;
+    margin: 10px auto;
+  }
+  
+  .cvc-inout {
+    text-align: end;
+    font-size: 18px;
+  }
+  
+  .invalid-feedback {
+    color: tomato;
+    font-size: 14px;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  

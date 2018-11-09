@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="creditcard" [@popverState]="stateName" [ngStyle]="setMyStyles()">
+    <div class="logo">
+      <img src="assets/chip.png" class="chip-left" />
+      <img src="assets/visa.png" class="chip-right" [ngStyle]="setVisaLogo()" />
+      <img src="assets/mastercard.jpg" class="chip-master" [ngStyle]="setMasterLogo()" />
+    </div>
+    <div class="cc-number">
+      <textarea style="width: 280px" class="inputs" placeholder="•••• •••• •••• ••••" id="inputNumber" readonly>{{num}}</textarea>
+    </div>
+    <div class="bottom-container">
+      <div class="name-input">
+        <textarea class="name-area" placeholder="YOUR NAME" id='printchatbox'>{{text}}</textarea>
+      </div>
+      <div class="valid-input">
+        <textarea class="date-area" placeholder="•• / ••" id="inputValid" readonly>{{exDate}}</textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cc-back" [@popOverState]="stateName">
+  <div class="cvc-black"></div>
+  <div class="cvc-white">
+    <textarea class="cvc-inout" id="inputCvc">{{cvc}}</textarea>
+  </div>
+</div>

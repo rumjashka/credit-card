@@ -5,11 +5,15 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {NgxMaskModule} from 'ngx-mask';
+import { CreditcardComponent } from './creditcard/creditcard.component';
+import { InputsComponent } from './inputs/inputs.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreditcardComponent,
+    InputsComponent
   ],
   imports: [
     BrowserModule,
